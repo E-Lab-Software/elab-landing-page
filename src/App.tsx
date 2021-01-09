@@ -1,7 +1,8 @@
-import { FC } from 'react';
+import { FC } from "react";
+import Navigation from "./components/Navigation";
 
 const App: FC = () => {
-    return <h1>Hello elab</h1>;
+  return <Navigation />;
 };
 
 export default App;
